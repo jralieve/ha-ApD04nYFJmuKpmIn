@@ -1,0 +1,7 @@
+sync_transactions:
+  name: Synchroniseer transacties
+  description: >
+    Haalt nieuwe transacties op van alle gekoppelde bankverbindingen via Enable Banking.
+    Importeert en categoriseert automatisch nieuwe transacties.
+    Na afloop wordt de sensor direct ververst.
+  fields: {}

@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Verbind met Financieel Beheer",
+        "description": "Voer de URL van de addon en het integratie-token in. Stel het token in via de addon-instellingen onder 'integration_token'.",
+        "data": {
+          "url": "Addon URL",
+          "token": "Integratie-token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Kan geen verbinding maken met de addon. Controleer de URL.",
+      "invalid_token": "Ongeldig token. Controleer het token in de addon-instellingen.",
+      "token_not_configured": "Het integratie-token is niet ingesteld in de addon. Stel 'integration_token' in via de addon-instellingen.",
+      "unknown": "Onbekende fout. Controleer de logbestanden."
+    },
+    "abort": {
+      "already_configured": "Deze addon is al geconfigureerd."
+    }
+  },
+  "services": {
+    "sync_transactions": {
+      "name": "Synchroniseer transacties",
+      "description": "Haalt nieuwe transacties op van alle gekoppelde bankverbindingen."
+    }
+  }
+}
