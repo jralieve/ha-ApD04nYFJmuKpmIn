@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Finance Manager",
+        "description": "Enter the addon URL and integration token. Set the token in the addon settings under 'integration_token'.",
+        "data": {
+          "url": "Addon URL",
+          "token": "Integration token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the addon. Check the URL.",
+      "invalid_token": "Invalid token. Check the token in the addon settings.",
+      "token_not_configured": "The integration token is not set in the addon. Set 'integration_token' in the addon settings.",
+      "unknown": "Unknown error. Check the logs."
+    },
+    "abort": {
+      "already_configured": "This addon is already configured."
+    }
+  },
+  "services": {
+    "sync_transactions": {
+      "name": "Sync transactions",
+      "description": "Fetches new transactions from all linked bank connections."
+    }
+  }
+}
