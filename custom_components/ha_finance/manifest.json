@@ -8,6 +8,6 @@
   "integration_type": "service",
   "iot_class": "local_polling",
   "dependencies": [],
-  "codeowners": [],
+  "codeowners": ["@jralieve"],
   "requirements": []
 }
