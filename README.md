@@ -13,7 +13,7 @@ A Home Assistant custom integration for **Financieel Beheer** (Finance Manager).
 ## Requirements
 
 - Home Assistant 2024.1.0 or newer
-- The [Financieel Beheer addon](https://github.com/jralieve/ha-finance-addon) installed and running
+
 
 ## Installation
 
