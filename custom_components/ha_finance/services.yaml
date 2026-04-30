@@ -5,3 +5,27 @@ sync_transactions:
     Importeert en categoriseert automatisch nieuwe transacties.
     Na afloop wordt de sensor direct ververst.
   fields: {}
+
+book_monthly_bookings:
+  name: Boek maandelijkse boekingen
+  description: >
+    Boekt alle openstaande maandelijkse boekingen als transacties.
+    Idempotent: reeds geboekte maanden worden overgeslagen.
+    Na afloop wordt de sensor direct ververst.
+  fields: {}
+
+book_loan_installments:
+  name: Boek lening-boekingen
+  description: >
+    Boekt alle openstaande termijnen van actieve leningen en hypotheken t/m vandaag als transacties.
+    Leningen zonder gekoppelde rekening worden overgeslagen.
+    Na afloop wordt de sensor direct ververst.
+  fields: {}
+
+book_depreciations:
+  name: Boek afschrijvingen
+  description: >
+    Boekt alle openstaande afschrijvingsmaanden van actieve activa t/m vandaag als transacties.
+    Activa zonder gekoppelde rekening worden overgeslagen.
+    Na afloop wordt de sensor direct ververst.
+  fields: {}
